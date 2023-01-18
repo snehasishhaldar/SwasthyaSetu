@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmergencyLogin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This Freatures Will Be Need The Premission OF Your Location"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Through this feature at emergency time any app user can get the emergency contact number from here...It takes the GPS permission and according to his location, app will provide the contact details"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#ff00ff"
+        android:paddingTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Current Location Is Haldia"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:textColor="#ff0000"
+        android:padding="10dp"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Haldia C.P.T Hospital :-03224 263 388"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:textColor="#ff0000"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="King Air Ambulance Services :-+91  070913 60310"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textColor="#ff0000"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Haldia Township Police Station:-03224 269 602"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:textColor="#ff0000"
+        />
+
+
+
+    <Button
+  android:id="@+id/Home"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  android:text="BackTo Home"
+  android:layout_gravity="center"
+  android:layout_marginTop="20dp"
+/>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NearestHospital"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This Feature Will Use Your Location"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:paddingTop="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="It need the premission to your location and according to the location the app will provide best result.And also provide the nearest hospital's number and through the google map it can also guide you to reach the hospital."
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:paddingTop="20dp"
+        android:textAlignment="center"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Your Current Location"
+    android:paddingTop="10sp"
+    android:textAlignment="center"
+    android:layout_gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hataberia,Haldia"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+      />
+    <TextView
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nearest Hospital"
+       />
+    <EditText
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haldia C.P.T. Hospital"
+     />
+    <TextView
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Detail"
+        />
+    <EditText
+android:id="@+id/callnumber"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="03224263388"/>
+
+    <ImageButton
+        android:id="@+id/callhospital"
+        android:layout_width="90dp"
+        android:layout_height="86dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_baseline_call_24"
+        android:layout_gravity="center"
+        android:backgroundTint="#00000000"/>
+
+</LinearLayout>

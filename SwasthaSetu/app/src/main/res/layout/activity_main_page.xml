@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage"
+    android:orientation="vertical"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frontpageimg"
+        android:layout_marginTop="-45dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="serif"
+        android:text="Swasthya Setu"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+</RelativeLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        android:layout_marginTop="-25dp"
+        android:background="#D4D4D4"
+        android:showDividers="end">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/PatientBtn"
+        android:layout_weight="3"
+        android:layout_width="114dp"
+        android:layout_height="107dp"
+        android:text="Patient Details"
+        android:outlineAmbientShadowColor="@color/black"
+        android:src="@drawable/ic_baseline_person_24"
+        android:scaleType="fitXY"
+        android:backgroundTint="#00000000"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="7dp"
+        android:paddingLeft="0dp"
+        android:text="Patient Details"
+        android:textColor="@color/black" />
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <ImageButton
+        android:id="@+id/MedicalButton"
+        android:layout_weight="3"
+        android:layout_width="114dp"
+        android:layout_height="107dp"
+        android:src="@drawable/ic_baseline_medical_services_24"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitXY"
+        android:background="#00FFFFFF"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicine Details"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <ImageButton
+            android:id="@+id/labreport"
+            android:layout_weight="3"
+            android:layout_width="114dp"
+            android:layout_height="107dp"
+            android:src="@drawable/ic_baseline_monitor_heart_24"
+            android:tooltipText="Patient Detail"
+            android:layout_marginLeft="20dp"
+            android:scaleType="fitXY"
+            android:backgroundTint="#00FFFFFF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lab Reports"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp"
+        android:scaleType="fitXY"
+        android:background="#D4D4D4">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+        <ImageButton
+            android:id="@+id/hospitaldtl"
+            android:layout_weight="3"
+            android:layout_width="114dp"
+            android:layout_height="107dp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:src="@drawable/ic_baseline_health_and_safety_24"
+            android:background="#00FFFFFF"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital Details"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <ImageButton
+            android:id="@+id/bloodbank"
+            android:layout_weight="3"
+            android:layout_width="114dp"
+            android:layout_height="107dp"
+            android:src="@drawable/ic_baseline_bloodtype_24"
+            android:layout_marginLeft="20dp"
+            android:background="#00FFFFFF"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Bank"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <ImageButton
+            android:layout_weight="3"
+            android:layout_width="114dp"
+            android:layout_height="107dp"
+            android:src="@mipmap/doctortnew_foreground"
+            android:layout_marginLeft="20dp"
+            android:background="#00FFFFFF"
+            android:scaleType="fitXY"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor Details"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-26dp"
+        android:background="#D4D4D4"
+        android:showDividers="end">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageButton
+                android:id="@+id/UploadPrescription"
+                android:layout_width="104dp"
+                android:layout_height="104dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="3"
+                android:background="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_document_scanner_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Prescription"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ContactUs"
+                android:layout_width="114dp"
+                android:layout_height="107dp"
+                android:layout_weight="3"
+                android:backgroundTint="#00000000"
+                android:outlineAmbientShadowColor="@color/black"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_support_agent_24"
+                android:text="Patient Details"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="2dp"
+                android:paddingLeft="0dp"
+                android:text="Contact Us"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageButton
+                android:id="@+id/donateus"
+                android:layout_width="114dp"
+                android:layout_height="107dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="3"
+                android:backgroundTint="#00FFFFFF"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_currency_rupee_24"
+                android:tooltipText="Patient Detail" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Donate US"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

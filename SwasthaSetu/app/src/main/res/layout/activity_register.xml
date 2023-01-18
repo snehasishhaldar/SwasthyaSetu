@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register As a User"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:padding="20dp"
+android:paddingTop="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:textAlignment="center"
+        android:paddingBottom="10dp"
+        />
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="User Name"-->
+<!--        android:textAlignment="center"-->
+<!--        android:paddingBottom="10dp"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Password"-->
+<!--        android:inputType="numberPassword"-->
+<!--        android:textAlignment="center"-->
+<!--        android:paddingBottom="10dp"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Re-Confirm Password"-->
+<!--        android:inputType="numberPassword"-->
+<!--        android:textAlignment="center"-->
+<!--        android:paddingBottom="10dp"-->
+<!--        />-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Phone Number"-->
+<!--        android:inputType="phone"-->
+<!--        android:textAlignment="center"-->
+<!--        android:paddingBottom="10dp"-->
+<!--        />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your UserName And Password Will Provide By Us"
+        android:paddingLeft="30dp"
+        style="bold"
+        android:textColor="#ff0000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Date Of Birthday"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:hint="dd:mm:yy"
+        android:paddingLeft="20dp"/>/>
+    <Button
+        android:id="@+id/NewSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Submit"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
